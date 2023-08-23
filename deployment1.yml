@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: tomcat-deployment
 spec:
-  replicas: 1 # Number of replicas/pods you want to create
+  replicas: 0 # Number of replicas/pods you want to create
   selector:
     matchLabels:
       app: tomcat
