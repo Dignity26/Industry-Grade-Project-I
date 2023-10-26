@@ -25,7 +25,7 @@
     - name: Log in to Docker Hub
       docker_login:
         username: dignity26
-        password: Ajit$1994  # It's recommended to use Ansible vault to store sensitive information like passwords.
+        password: Ajit  # It's recommended to use Ansible vault to store sensitive information like passwords.
 
     - name: Push the Docker image to Docker Hub
       docker_image:
